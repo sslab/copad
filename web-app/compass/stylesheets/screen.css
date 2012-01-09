@@ -1,0 +1,158 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../sass/screen.scss */
+body {
+  background-color: #F8F8F5;
+}
+
+/* line 18, ../sass/screen.scss */
+#paper {
+  margin-left: 63px;
+  background-color: #FDFDFA;
+  min-height: 100%;
+  font-size: 1.1875em;
+  -moz-box-shadow: 0 0 5px #acacac;
+  -webkit-box-shadow: 0 0 5px #acacac;
+  -o-box-shadow: 0 0 5px #acacac;
+  box-shadow: 0 0 5px #acacac;
+}
+/* line 25, ../sass/screen.scss */
+#paper #wrapper {
+  width: 705px;
+  margin: 0 auto;
+}
+/* line 30, ../sass/screen.scss */
+#paper h1, #paper h2, #paper h3, #paper h4, #paper h5, #paper h6 {
+  font-family: Georgia, "Times New Roman", serif, Constantia, Utopia, Lucidabright, Lucida;
+  font-weight: bold;
+}
+/* line 35, ../sass/screen.scss */
+#paper h1 {
+  line-heigh: 2em;
+  padding: .25em 0;
+  margin-bottm: 1em;
+  font-size: 1.7em;
+  border-bottom-color: #CDCDCC;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+/* line 49, ../sass/screen.scss */
+#paper #content {
+  width: 640px;
+  height: 480px;
+}
+
+/* line 55, ../sass/screen.scss */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+}
+/* line 61, ../sass/screen.scss */
+#sidebar a {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-color: #EAEAEA;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  width: 32px;
+  text-align: center;
+}
+/* line 74, ../sass/screen.scss */
+#sidebar a .button {
+  padding: 4px;
+}
+/* line 78, ../sass/screen.scss */
+#sidebar a:hover {
+  background-color: #FDFDFA;
+}
+
+/* line 83, ../sass/screen.scss */
+#paper .CodeMirror {
+  font-family: 'Droid Sans Mono';
+  font-size: 11pt;
+  line-height: 1.25em;
+}
+
+/* line 89, ../sass/screen.scss */
+#paper .CodeMirror-scroll {
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 100%;
+}

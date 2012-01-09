@@ -1,0 +1,94 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #F8F8F5;
+}
+
+#paper {
+	margin-left: 63px;
+	background-color: #FDFDFA;
+	min-height: 100%;
+	font-size: 1.1875em;
+	@include single-box-shadow(#ACACAC, 0, 0, 5px, false, false);
+
+	#wrapper {
+		width: 705px;
+		margin: 0 auto;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: Georgia, 'Times New Roman', serif, Constantia, Utopia, Lucidabright, Lucida;
+		font-weight: bold;
+	}
+
+	h1 {
+		line-heigh: 2em;
+		padding: .25em 0;
+		margin-bottm: 1em;
+		font: {
+			size: 1.7em;
+		}
+		border-bottom: {
+			color: #CDCDCC;
+			style: solid;
+			width: 2px;
+		}
+	}
+
+	#content {
+		width: 640px;
+		height: 480px;
+	}
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 30px;
+
+	a {
+		margin: {
+			left: 15px;
+			bottom: 5px;
+		}
+		border: {
+			color: #EAEAEA;
+			style: solid;
+			width: 1px;
+		}
+		display: inline-block;
+		width: 32px;
+		text-align: center;
+		.button {
+			padding: 4px;
+		}
+	}
+	a:hover {
+		background-color: #FDFDFA;
+	}
+}
+
+#paper .CodeMirror {
+	font-family: 'Droid Sans Mono';
+	font-size: 11pt;
+	line-height: 1.25em;
+}
+
+#paper .CodeMirror-scroll {
+	height: auto;
+	overflow-y: hidden;
+	overflow-x: auto;
+	width: 100%;
+}
